@@ -1,10 +1,10 @@
 pocetna_pozicija = 0
-cilj = 50
+cilj = 100
 
 trenutna_pozicija = 0 
 brzina = 10
 
-for x in range(10):
+for x in range(20):
     print(trenutna_pozicija)
     if trenutna_pozicija == cilj:
         print("stigao do cilja")
